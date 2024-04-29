@@ -1,0 +1,12 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldController 
+{
+	public String welcomeMsg(String name)
+	{
+		return "Welcome to openshift container deployment demo."+name;
+	}
+}
